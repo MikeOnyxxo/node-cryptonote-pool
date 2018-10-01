@@ -1,6 +1,6 @@
 {
-    "coin": "monero",
-    "symbol": "XMR",
+    "coin": "edop",
+    "symbol": "EDOP",
 
     "logging": {
         "files": {
@@ -23,7 +23,7 @@
         "ports": [
             {
                 "port": 3333,
-                "difficulty": 100,
+                "difficulty": 400,
                 "desc": "Low end hardware"
             },
             {
@@ -102,13 +102,13 @@
     },
 
     "daemon": {
-        "host": "127.0.0.1",
-        "port": 18081
+        "host": "40.74.237.76",
+        "port": 23103
     },
 
     "wallet": {
-        "host": "127.0.0.1",
-        "port": 8082
+        "host": "40.74.237.76",
+        "port": 23103
     },
 
     "redis": {
